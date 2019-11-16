@@ -1,0 +1,22 @@
+{
+    "name": "create_sql_by_excelfile",
+    "version": "1.0.0",
+    "description": "nodejs本地读取excel文件,根据其中内容生成sql文件。",
+    "main": "index.js",
+    "scripts": {
+        "load": "node index.js",
+        "load2": "node index2.js"
+    },
+    "keywords": [
+        "nodejs",
+        "excel",
+        "SQL"
+    ],
+    "author": "Vigo erwinz@163.com",
+    "license": "MIT",
+    "dependencies": {
+        "nanoid": "^2.1.6",
+        "silly-datetime": "^0.1.2",
+        "xlsx": "^0.15.2"
+    }
+}
